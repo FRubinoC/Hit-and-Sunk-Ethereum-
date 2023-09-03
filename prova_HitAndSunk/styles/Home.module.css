@@ -1,0 +1,111 @@
+.main
+{
+    background-color: rgb(215, 234, 240);
+}
+
+.playground
+{
+    display: grid;
+    grid-template-rows:    45px 45px 45px 45px 45px 45px 45px 45px 45px;
+    grid-template-columns: 45px 45px 45px 45px 45px 45px 45px 45px 45px;
+
+    justify-content: center;
+    text-align: center;
+}
+
+#playgrounds
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#my_playground_div
+{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    position: left;
+    justify-content: center;
+}
+
+#ad_playground_div
+{
+    display: inline-block;    
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.adversarycell_btn
+{
+    width: 45px;
+    height: 45px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(196, 229, 250);
+}
+
+.cells
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(196, 229, 250);
+}
+
+.my_ship_1
+{
+    background-color: violet;
+}
+
+.my_ship_2
+{
+    background-color: yellow;
+}
+
+.my_ship_3
+{
+    background-color: orange;
+}
+
+.my_ship_4
+{
+    background-color: green;
+}
+
+.my_ship_5
+{
+    background-color: red;
+}
+
+.adversarycell_water
+{
+    width: 45px;
+    height: 45px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(162, 162, 230);
+    background-image: url("images/water45.png");
+}
+
+.adversarycell_fire
+{
+    width: 45px;
+    height: 45px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(234, 109, 109);
+    background-image: url("images/fire45.png");
+}
+
+.tried
+{
+    background-image: url("images/cross_45.png");
+}

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "clean": "^4.0.2",
+    "merkletreejs": "^0.3.10",
+    "solc": "^0.8.20",
+    "web3": "^1.10.0"
+  }
+}
